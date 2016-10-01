@@ -1,4 +1,13 @@
-h1 {
+body{
+    background-color: #F5F5DC
+}
+nav {
+    padding-top: 10px;
+}
+h1, #salon {
+    font-family: 'Raleway', sans-serif;
     color: #A52A2A;
-     align: right;   
+}
+h2 {
+    alignment-baseline: center;
 }
