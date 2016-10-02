@@ -1,13 +1,24 @@
 body{
-    background-color: #F5F5DC
+    max-width: 970 px;
+    margin: 0, auto;
+    background-color: #F5F5DC;
 }
 nav {
+    
     padding-top: 10px;
 }
-h1, #salon {
-    font-family: 'Raleway', sans-serif;
+h1 {
+    font-family: 'Lobster', cursive;
     color: #A52A2A;
 }
 h2 {
-    alignment-baseline: center;
+    font-family: 'Lobster', cursive;
+    color: #A52A2A;
 }
+#salon {
+    font-family: 'Lobster', cursive;
+}
+footer {
+    
+}
+
