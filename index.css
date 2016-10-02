@@ -4,33 +4,36 @@ body{
     background-color: #FFEBCD;
     text-align: center;
 }
+.container {
+    padding-top: 2px;
+}
+h1 {
+    color: 	#800080;
+    font-size: 40px;
+    font-family:'Lobster', cursive;
+    border-bottom: 2px solid black;
+}
+#logo1 {
+    width: 550px;
+    height: 300px;
+}
+
 .navigation {
     position: relative;
     overflow: auto;
+    float: left;
     word-spacing: 1em;
     text-decoration: none;
     font-size: 20px;
     font-family:'Lobster', cursive;
-    text-align: center;
-}
-h1 {
-    font-size: 40px;
-    color: #FFEBCD;
-    font-family:'Lobster', cursive;
-    text-align: center;
-}
-.logo {;
-    margin-left: 250px;
-    background-image: url(logo1.jpg);
-    background-repeat: no-repeat;
-    width: 450px;
-    height: 300px;
 }
 h2 {
-    font-family: 'Lobster', cursive;
     color: 	#800080;
 }
 #salon {
+    margin-top: 10px;
+    float: right;
+    width: 700px;
     font-family: 'Lobster', cursive;
 }
 h5 {
