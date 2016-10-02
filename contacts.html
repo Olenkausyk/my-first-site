@@ -1,4 +1,9 @@
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<!doctype html>
+  <html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <title>Салон краси "Венеція"</title>
+    <link rel="stylesheet" href="index.css" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
   <body>
       <header>
@@ -9,21 +14,35 @@
       </header>
       <nav>
         <div class="navigation">
-              <div class="page_main"><br><a href="main.html">Головна</a></div>
+              <div class="page_main"><br><a href="index.html">Головна</a></div>
               <div class="page_price"><br><a href="price.html">Послуги і ціни</a></div>
               <div class="page_gallery"><br><a href="gallery.html">Галерея</a></div>
               <div class="page_contacts"><br><a href="contacts.html">Контакти</a>
         </div>
       </nav>
       <main>
-        <form>
+        <form id="form">
           <article id="message"
-          <h4 class="message">Напишіть нам!</h4>
-          <fieldset>
+          <h1>Напишіть нам!</h1>
+          <fieldset class="message">
             <br>
-              <label for="name">Ім'я</label>
-              <input type="text" name="name"id="name" required/>
-              
+              <label for="name">Ім'я:</label>
+            <br>
+              <input type="text" name="name"id="name" size="50" required/>
+            <br>
+              <label for="email">Електронна адреса:</label>
+            <br>
+              <input type="email" name="email" id="email" size="50" required/>
+            <br>
+              <label for="telephone">Номер телефону</label>
+            <br>
+              <input type="telephone" name="telephone" id="telephone" size="50"/>
+            <br>
+              <label for="comments">Ваш коментар:</label>
+            <br>
+              <textarea name="comments" id="comments"></textarea>
+            <br>
+              <input type="submit" name="submit" id="submit" value="Відправити"/>
           </fieldset>
         </form>
       </main>
