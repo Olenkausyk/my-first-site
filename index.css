@@ -1,24 +1,44 @@
 body{
-    max-width: 970 px;
-    margin: 0, auto;
-    background-color: #F5F5DC;
+    max-width: 970px;
+    margin: 10px auto;
+    background-color: #FFEBCD;
+    text-align: center;
 }
-nav {
-    
-    padding-top: 10px;
+.navigation {
+    position: relative;
+    overflow: auto;
+    word-spacing: 1em;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Lobster', cursive;
+    text-align: center;
 }
 h1 {
-    font-family: 'Lobster', cursive;
-    color: #A52A2A;
+    font-size: 40px;
+    color: #FFEBCD;
+    font-family:'Lobster', cursive;
+    text-align: center;
+}
+.logo {;
+    margin-left: 250px;
+    background-image: url(logo1.jpg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 300px;
 }
 h2 {
     font-family: 'Lobster', cursive;
-    color: #A52A2A;
+    color: 	#800080;
 }
 #salon {
     font-family: 'Lobster', cursive;
 }
-footer {
-    
+h5 {
+    color: #800080;
 }
+.footer_me {
+    padding-top: 1px;
+    font-size: 12px;
+}
+
 
