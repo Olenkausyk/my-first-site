@@ -42,9 +42,28 @@ li {
 h2 {
     color: 	#800080;
 }
+#address {
+   float: right;
+    text-align: center;
+}
 #form {
+    float: left;
     padding: 10px;
     border: 1px solid black;
     border-radius: 20px;
     font-size: 20px;
+}
+.message input[type="text"] 
+.message input[type="email"] 
+.message input[type="telephone"] 
+.message input[type="comments"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.message input[submit] {
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 20px;
 }

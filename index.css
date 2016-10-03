@@ -1,14 +1,12 @@
 body{
-    max-width: 970px;
-    margin: 10px auto;
     background-color: #FFEBCD;
     text-align: center;
     font-family:'Lobster', cursive;
     font-size: 100%;
 }
 .container {
+    max-width: 960px;
     margin: 0 auto;
-    padding: 20px 0;
 }
 h1 {
     color: 	#800080;
@@ -21,9 +19,10 @@ h1 {
 }
 
 .navigation {
-    position: relative;
-    overflow: auto;
     float: left;
+    position: relative;
+    height: 300px;
+    padding-left: 250px;
     font-size: 25px;
     line-height: 40px;
     //*text-decoration: none; *//
@@ -43,15 +42,21 @@ h2 {
     color: 	#800080;
 }
 #salon {
-    margin-top: 10px;
     float: right;
     width: 800px;
+    height: 300px;
+    padding-right: 200px;
+    font-size: 20px;
 }
 h5 {
     color: #800080;
 }
-.footer_me {
-    padding-top: 10px;
+.clear {
+    clear: both;
+}
+.footer {
+    height: 10px;
+    width: 960px;
     font-size: 12px;
 }
 
