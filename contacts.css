@@ -1,69 +1,22 @@
-body{
-    max-width: 970px;
-    margin: 10px auto;
-    background-color: #FFEBCD;
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#shedule {
     text-align: center;
-    font-family:'Lobster', cursive;
-    font-size: 100%;
-}
-.container {
-    margin: 0 auto;
-    padding: 20px 0;
-}
-h1 {
-    color: 	#800080;
-    font-size: 40px;
-    border-bottom: 2px solid black;
-}
-#logo1 {
-    width: 550px;
-    height: 300px;
-}
-
-.navigation {
-    position: relative;
-    overflow: auto;
-    float: left;
-    font-size: 25px;
-    line-height: 40px;
-    //*text-decoration: none; *//
-}
-.navigation li a:hover {
-    text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 
-    0 0 30px #0000FF, 0 0 45px #0000FF, 0 0 60px #0000FF;
-}
-li {
-    list-style-type: none;
-}
- ul {
-    margin-left: 0; 
-    padding-left: 0;
-}
-h2 {
-    color: 	#800080;
+    margin-left: 200px;
+    padding-right: 100px;
 }
 #address {
-   float: right;
-    text-align: center;
+    padding-top: 10px;
 }
-#form {
-    float: left;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
-    font-size: 20px;
+.formandmap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.message input[type="text"] 
-.message input[type="email"] 
-.message input[type="telephone"] 
-.message input[type="comments"] {
-    padding: 5px;
-    margin-right: 5px;
-    border: 1px solid;
-    border-radius: 20px;
-}
-.message input[submit] {
-    padding: 5px 15px;
-    border: 1px solid;
-    border-radius: 20px;
+fieldset {
+    width: 400px;
+    border-radius: 10px;
 }
