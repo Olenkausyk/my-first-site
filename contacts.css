@@ -1,20 +1,13 @@
 .contact {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 #shedule {
-    text-align: center;
     margin-left: 200px;
-    padding-right: 100px;
-}
-#address {
-    padding-top: 10px;
 }
 .formandmap {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 fieldset {
     width: 400px;
